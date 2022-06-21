@@ -1,46 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="searchPokemon.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <title>Search Pokemon</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="searchPokemon.css" />
-  <title>Search Pokemon</title>
-</head>
-
-<body>
-  <nav>
-    <ul class="nav-list">
-      <li class="nav-item">
-        <img src="pokeball.gif" alt="logo" class="logo">
-      </li>
-      <h1>Pokedex</h1>
-      <li class="nav-item">
-        <button class="btn-primary" onclick="location.href='/#'" type="button">Go Back</button>
-      </li>
-    </ul>
-  </nav>
-  <main>
-    <header>
-      <form id="form">
-        <input type="search" class="search" placeholder="Search pokemon name..." autocomplete="off" id="searchInput" />
-        <input type="submit" class="btn" value="Search" id="searchBtn" />
-      </form>
-    </header>
-    <section>
-      <article class="card">
-        <div id="pokemon-img"></div>
-        <div class="content">
-          <h2 id="pokemon-name"></h2>
-          <span class="type" id="pokemon-type"></span>
-          <p id="weight"></p>
-          <p id="height"></p>
-        </div>
-      </article>
-    </section>
-  </main>
-  <script src="searchPokemon.js"></script>
-</body>
-
+  <body>
+    <nav>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <img src="pokeball.gif" alt="logo" class="logo" />
+        </li>
+        <h1>Pokedex</h1>
+        <li class="nav-item">
+          <button class="btn-primary" onclick="location.href='/#'" type="button">Go Back</button>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <header>
+        <form id="form">
+          <input type="search" class="search" placeholder="Search pokemon name..." autocomplete="off" id="searchInput" />
+          <input type="submit" class="btn" value="Search" id="searchBtn" />
+        </form>
+      </header>
+      <section>
+        <article class="card">
+          <div id="pokemon-img"></div>
+          <div class="content">
+            <h2 id="pokemon-name"></h2>
+            <span class="type" id="pokemon-type"></span>
+            <p id="weight"></p>
+            <p id="height"></p>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="searchPokemon.js"></script>
+  </body>
 </html>

@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <title>Pokedex</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Pokedex</title>
-</head>
+  <body>
+    <nav>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <img src="pokeball.gif" alt="logo" class="logo" />
+        </li>
+        <h1>Pokedex</h1>
+        <li class="nav-item">
+          <button class="btn-primary" onclick="location.href='/searchPokemon.html'" type="button">Search</button>
+        </li>
+      </ul>
+    </nav>
 
-<body>
-  <nav>
-    <ul class="nav-list">
-      <li class="nav-item">
-        <img src="pokeball.gif" alt="logo" class="logo">
-      </li>
-      <h1>Pokedex</h1>
-      <li class="nav-item">
-        <button class="btn-primary" onclick="location.href='/searchPokemon.html'" type="button">Search</button>
-      </li>
-    </ul>
-  </nav>
-
-  <div class="poke-container" id="poke-container"></div>
-  <script src="script.js"></script>
-</body>
-
+    <div class="poke-container" id="poke-container"></div>
+    <script src="script.js"></script>
+  </body>
 </html>
