@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #f3fcff;
+  background-color: #F0F0F0;
   font-family: 'Lato', sans-serif;
   display: flex;
   flex-direction: column;
@@ -72,6 +72,10 @@ nav {
   width: 120px;
   height: 120px;
   text-align: center;
+  border-color: #222224;
+  border-width: 3px;
+  border-style: solid;
+
 }
 
 .pokemon .img-container img {
@@ -84,10 +88,11 @@ nav {
 }
 
 .pokemon .info .number {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #ee1515;
   padding: 5px 10px;
   border-radius: 10px;
   font-size: 0.8em;
+  color: #f0f0f0;
 }
 
 .pokemon .info .name {
