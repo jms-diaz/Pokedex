@@ -112,4 +112,5 @@ header h1 {
   height: 120px;
   text-align: center;
   margin-bottom: 15px;
+  border: 3px solid black;
 }
